@@ -9,8 +9,10 @@
 </head>
 <body>
     <h1>Speed Reader</h1>
-    <input id="input-box" type="text" placeholder="Paste your text here..."/>
-    <button id="read-button">Read!</button>
+    <form id="text-form">
+        <textarea id="input-box" cols="40" rows="10">Paste your text here...</textarea>
+        <input id="read-button" type="submit">Read!</input>
+    </form>
     <div id="reader-div"></div>
     <script src="index.js"></script>
 </body>
